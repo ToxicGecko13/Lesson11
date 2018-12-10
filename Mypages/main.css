@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(194, 194, 194);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 75px;
+    color: black;
+    font-weight: 550;
+    /* filter: drop-shadow( 1px 1px 3px); */
+}
+
+.bigBox {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(90, 134, 134);
+    border: 40px;
+    border-color: rgb(90, 134, 134);
+    border-style: solid;
+    filter: drop-shadow(3px 3px 4px);
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.box1 {
+    background-color: rgb(60, 117, 117);
+    filter: drop-shadow(1px 1px 1px);
+    margin: 3px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.box1:hover {
+    background-color:rgb(80, 145, 145);
+    transition-duration: 0s;
+    filter: drop-shadow(2px 2px 2px);
+    cursor: pointer;
+}
+
+.box2 {
+    background-color:rgb(60, 117, 117);
+    filter: drop-shadow(1px 1px 1px);
+    margin: 3px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.box2:hover {
+    background-color:rgb(80, 145, 145);
+    transition-duration: 0s;
+    filter: drop-shadow(2px 2px 2px);
+    cursor: pointer;
+}
